@@ -1,0 +1,378 @@
+object FrmPrincipal: TFrmPrincipal
+  Left = 0
+  Top = 0
+  BorderStyle = ToolWindow
+  Caption = 'Server SmartPro99'
+  ClientHeight = 275
+  ClientWidth = 477
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object TmSincronizaProduto: TTimer
+    Enabled = False
+    OnTimer = TmSincronizaProdutoTimer
+    Left = 384
+    Top = 76
+  end
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Size.Width = 477.000000000000000000
+    Size.Height = 275.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object TabControl: TTabControl
+      Align = Top
+      Margins.Left = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 49.000000000000000000
+      Size.Width = 467.000000000000000000
+      Size.Height = 160.000000000000000000
+      Size.PlatformDefault = False
+      TabIndex = 0
+      TabOrder = 0
+      TabPosition = PlatformDefault
+      Sizes = (
+        467s
+        134s
+        467s
+        134s
+        467s
+        134s)
+      object TabGeral: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = True
+        Size.Width = 48.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'Geral'
+        ExplicitSize.cx = 48.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        object LytProgressoBar: TLayout
+          Align = Bottom
+          Margins.Left = 8.000000000000000000
+          Margins.Top = 8.000000000000000000
+          Margins.Right = 8.000000000000000000
+          Margins.Bottom = 8.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 91.000000000000000000
+          Size.Width = 451.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object PBarSincronizara: TProgressBar
+            Align = Client
+            Orientation = Horizontal
+            Size.Width = 451.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+        object lblLocalarq: TLabel
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Position.X = 5.000000000000000000
+          Position.Y = 27.000000000000000000
+          Size.Width = 457.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = 'Local do arquivo:'
+          TabOrder = 1
+        end
+        object Label2: TLabel
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Position.X = 5.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 457.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = 'Proxima Sincroniza'#231#227'o: '
+          TabOrder = 2
+          object LblProxSincronizacao: TLabel
+            Align = Left
+            Margins.Left = 150.000000000000000000
+            Position.X = 150.000000000000000000
+            Text = '00:00:00'
+            TabOrder = 0
+          end
+        end
+      end
+      object TabConfiguracao: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 91.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'Configura'#231#227'o'
+        ExplicitSize.cx = 91.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        object Label3: TLabel
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 3.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 3.000000000000000000
+          Position.X = 5.000000000000000000
+          Position.Y = 3.000000000000000000
+          Size.Width = 457.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = 'Time da Sincroniza'#231#227'o:'
+          TabOrder = 0
+          object EdtTime: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Left
+            TabOrder = 0
+            Position.X = 150.000000000000000000
+            Margins.Left = 150.000000000000000000
+            Size.Width = 83.000000000000000000
+            Size.Height = 22.000000000000000000
+            Size.PlatformDefault = False
+            OnExit = EdtTimeExit
+          end
+          object Label4: TLabel
+            Align = Left
+            Margins.Left = 5.000000000000000000
+            Position.X = 238.000000000000000000
+            Size.Width = 51.000000000000000000
+            Size.Height = 22.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Seg'
+            TabOrder = 1
+          end
+        end
+      end
+      object TabLogs: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 63.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'TabLogs'
+        ExplicitSize.cx = 63.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        object MmLogs: TMemo
+          Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+          DataDetectorTypes = []
+          Align = Client
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 447.000000000000000000
+          Size.Height = 97.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Viewport.Width = 443.000000000000000000
+          Viewport.Height = 93.000000000000000000
+        end
+        object Label1: TLabel
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Size.Width = 447.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 14.000000000000000000
+          Text = 'Logs:'
+          TabOrder = 1
+        end
+      end
+    end
+    object LblRodaPe: TLabel
+      Align = Bottom
+      StyledSettings = []
+      Position.Y = 250.000000000000000000
+      Size.Width = 477.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Yu Gothic UI'
+      TextSettings.Font.Size = 11.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.FontColor = xFF7D7D7D
+      TextSettings.HorzAlign = Center
+      Text = 'LblRodaPe'
+      TabOrder = 2
+    end
+    object LytBotao: TLayout
+      Align = Bottom
+      Position.Y = 210.000000000000000000
+      Size.Width = 477.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object BtnStart: TRectangle
+        Align = Right
+        Margins.Left = 4.000000000000000000
+        Margins.Top = 4.000000000000000000
+        Margins.Right = 4.000000000000000000
+        Margins.Bottom = 4.000000000000000000
+        Position.X = 170.000000000000000000
+        Position.Y = 4.000000000000000000
+        Size.Width = 122.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        OnClick = BtnStartClick
+        object Label7: TLabel
+          Align = Client
+          StyledSettings = []
+          Locked = True
+          Size.Width = 122.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Yu Gothic UI'
+          TextSettings.Font.Size = 11.000000000000000000
+          TextSettings.Font.StyleExt = {00060000000000000004000000}
+          TextSettings.FontColor = xFF4C4C4C
+          TextSettings.HorzAlign = Center
+          Text = 'Start'
+          TabOrder = 0
+        end
+      end
+      object BtnStop: TRectangle
+        Align = Right
+        Margins.Left = 4.000000000000000000
+        Margins.Top = 4.000000000000000000
+        Margins.Right = 4.000000000000000000
+        Margins.Bottom = 4.000000000000000000
+        Position.X = 300.000000000000000000
+        Position.Y = 4.000000000000000000
+        Size.Width = 116.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        OnClick = BtnStopClick
+        object Label8: TLabel
+          Align = Client
+          StyledSettings = []
+          Locked = True
+          Size.Width = 116.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Yu Gothic UI'
+          TextSettings.Font.Size = 11.000000000000000000
+          TextSettings.Font.StyleExt = {00060000000000000004000000}
+          TextSettings.FontColor = xFF4C4C4C
+          TextSettings.HorzAlign = Center
+          Text = 'Stop'
+          TabOrder = 0
+        end
+      end
+      object CliStatus: TCircle
+        Align = Right
+        Fill.Color = xFFE50E0E
+        Margins.Left = 4.000000000000000000
+        Margins.Top = 4.000000000000000000
+        Margins.Right = 4.000000000000000000
+        Margins.Bottom = 4.000000000000000000
+        Position.X = 424.000000000000000000
+        Position.Y = 4.000000000000000000
+        Size.Width = 49.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object LblOnOff: TLabel
+          Align = Client
+          StyledSettings = [Style]
+          Size.Width = 49.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Arial'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'OFF'
+          TabOrder = 0
+        end
+      end
+    end
+    object Label5: TLabel
+      Align = Top
+      StyledSettings = [Style]
+      Margins.Left = 8.000000000000000000
+      Margins.Top = 8.000000000000000000
+      Margins.Right = 8.000000000000000000
+      Margins.Bottom = 8.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 461.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Exotc350 DmBd BT'
+      TextSettings.Font.Size = 25.000000000000000000
+      TextSettings.FontColor = xFF616161
+      Text = 'SmartPro99 - Server'
+      TabOrder = 4
+    end
+  end
+  object RESTPooler: TRESTServicePooler
+    Active = False
+    CORS = False
+    CORS_CustomHeaders.Strings = (
+      'Access-Control-Allow-Origin=*'
+      
+        'Access-Control-Allow-Methods=GET, POST, PATCH, PUT, DELETE, OPTI' +
+        'ONS'
+      
+        'Access-Control-Allow-Headers=Content-Type, Origin, Accept, Autho' +
+        'rization, X-CUSTOM-HEADER')
+    RequestTimeout = -1
+    ServicePort = 10060
+    ProxyOptions.Port = 8888
+    AuthenticationOptions.AuthorizationOption = rdwAOBasic
+    AuthenticationOptions.OptionParams.AuthDialog = True
+    AuthenticationOptions.OptionParams.CustomDialogAuthMessage = 'Protected Space...'
+    AuthenticationOptions.OptionParams.Custom404TitleMessage = '(404) The address you are looking for does not exist'
+    AuthenticationOptions.OptionParams.Custom404BodyMessage = '404'
+    AuthenticationOptions.OptionParams.Custom404FooterMessage = 'Take me back to <a href="./">Home REST Dataware'
+    AuthenticationOptions.OptionParams.Username = 'admin'
+    AuthenticationOptions.OptionParams.Password = 'admin'
+    SSLMethod = sslvSSLv2
+    SSLVersions = []
+    Encoding = esUtf8
+    RootPath = '/'
+    SSLVerifyMode = []
+    SSLVerifyDepth = 0
+    ForceWelcomeAccess = False
+    CriptOptions.Use = False
+    CriptOptions.Key = 'RDWBASEKEY256'
+    MultiCORE = False
+    Left = 280
+    Top = 80
+  end
+end

@@ -1,0 +1,50 @@
+object FrameTabelaCores: TFrameTabelaCores
+  Align = Top
+  Size.Width = 584.000000000000000000
+  Size.Height = 23.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle4: TRectangle
+    Align = Left
+    Fill.Color = xFF2C2C2C
+    Position.X = 356.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object Rectangle2: TRectangle
+    Align = Left
+    Fill.Color = xFFFEFE00
+    Position.X = 89.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object Rectangle3: TRectangle
+    Align = Left
+    Fill.Color = xFFAECC5F
+    Size.Width = 89.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object Rectangle5: TRectangle
+    Align = Left
+    Fill.Color = xFFFF0101
+    Position.X = 267.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object Rectangle1: TRectangle
+    Align = Left
+    Fill.Color = x7DFEFE00
+    Position.X = 178.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+end

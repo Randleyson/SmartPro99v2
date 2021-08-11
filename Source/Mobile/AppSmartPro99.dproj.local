@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/02/13 16:33:29.000.117,D:\Projetos\SmartPro99\trunk\Fonte\Mobile\View\View.Principal.fmx=C:\Users\Randleyson\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2021/02/13 16:33:45.000.080,D:\Projetos\SmartPro99\trunk\Fonte\Mobile\AppSmartPro99.dproj=C:\Users\Randleyson\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/02/27 14:57:19.000.258,D:\Projetos\SmartPro99\trunk\Mobile\Unit1.fmx=D:\Projetos\SmartPro99\trunk\Mobile\View\View.Splash.fmx</Transaction>
+    <Transaction>2021/02/27 15:11:55.000.635,D:\Projetos\SmartPro99\trunk\Mobile\Unit1.fmx=D:\Projetos\SmartPro99\trunk\Mobile\View\View.TabelaPreco.fmx</Transaction>
+    <Transaction>2021/02/27 15:19:30.000.740,D:\Projetos\SmartPro99\trunk\Mobile\Unit2.fmx=D:\Projetos\SmartPro99\trunk\Mobile\View\View.Configuracao.fmx</Transaction>
+    <Transaction>2021/02/27 16:48:37.000.607,D:\Projetos\SmartPro99\trunk\Mobile\Unit1.dfm=D:\Projetos\SmartPro99\trunk\Mobile\Module\Module.DmConfiguracoes.dfm</Transaction>
+    <Transaction>2021/02/27 16:55:55.000.482,D:\Projetos\SmartPro99\trunk\Mobile\Unit1.dfm=D:\Projetos\SmartPro99\trunk\Mobile\Dao\Dao.Conexoes.dfm</Transaction>
+    <Transaction>2021/02/27 18:24:40.000.036,D:\Projetos\SmartPro99\trunk\Mobile\Unit1.dfm=D:\Projetos\SmartPro99\trunk\Mobile\Module\Module.DmProdutos.dfm</Transaction>
+    <Transaction>2021/02/28 10:26:26.000.881,D:\Projetos\SmartPro99\trunk\Mobile\Unit1.fmx=D:\Projetos\SmartPro99\trunk\Mobile\FrmTabelaCores.fmx</Transaction>
+    <Transaction>2021/02/28 11:10:44.000.421,D:\Projetos\SmartPro99\trunk\Mobile\Unit1.dfm=D:\Projetos\SmartPro99\trunk\Mobile\Module\Module.DmTv.dfm</Transaction>
+    <Transaction>2021/05/16 14:09:16.000.581,D:\Projetos\SmartPro99\trunk\Mobile\Unit1.fmx=D:\Projetos\SmartPro99\trunk\Mobile\View\View.FrameItemLista.fmx</Transaction>
+    <Transaction>2021/05/16 22:00:03.000.830,D:\Projetos\SmartPro99\trunk\Mobile\Unit1.dfm=D:\Projetos\SmartPro99\trunk\Mobile\Untis\Units.Dm.dfm</Transaction>
+    <Transaction>2021/05/17 17:48:28.000.898,D:\Projetos\SmartPro99\trunk\Mobile\View\View.FrameItemLista.fmx=D:\Projetos\SmartPro99\trunk\Mobile\View\Frames\View.Frames.ItemLista.fmx</Transaction>
+    <Transaction>2021/05/17 17:48:57.000.491,D:\Projetos\SmartPro99\trunk\Mobile\FrmTabelaCores.fmx=D:\Projetos\SmartPro99\trunk\Mobile\View\Frames\View.Frames.TabelaCores.fmx</Transaction>
+    <Transaction>2021/08/08 17:04:44.000.188,D:\Projetos\SmartPro99\trunk\Source\Mobile\Untis\Loading.pas=</Transaction>
+    <Transaction>2021/08/08 17:05:28.000.418,D:\Projetos\SmartPro99\trunk\Source\Mobile\Untis\uFiredac.pas=</Transaction>
+    <Transaction>2021/08/08 17:05:48.000.899,=D:\Projetos\Global\uFireDAC.pas</Transaction>
+    <Transaction>2021/08/08 17:05:48.000.914,=D:\Projetos\Global\uRestDataWare.pas</Transaction>
+    <Transaction>2021/08/08 17:10:17.000.739,=D:\Projetos\Global\uLoading.pas</Transaction>
+    <Transaction>2021/08/09 22:24:28.521,D:\Projetos\SmartPro99\trunk\Source\Mobile\Untis\uDm.pas=D:\Projetos\SmartPro99\trunk\Source\Mobile\Untis\Units.Dm.pas</Transaction>
+    <Transaction>2021/08/09 22:24:28.521,D:\Projetos\SmartPro99\trunk\Source\Mobile\Untis\uDm.dfm=D:\Projetos\SmartPro99\trunk\Source\Mobile\Untis\Units.Dm.dfm</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PIOSsumulador iOSSimulator="iPhone5"/>
+		<NoProfile Android=""/>
+	</ActiveMobileDevice>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-base.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-identifier.16.0.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-lite.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-analytics-impl.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-analytics.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-base.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-basement.16.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-gass.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-identity.16.0.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-maps.16.1.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-measurement-base.16.4.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-measurement-sdk-api.16.4.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-stats.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-tagmanager-v4-impl.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-tasks.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-wallet.16.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-analytics.16.4.0.dex.jar"/>
+    <File Path="com-google-firebase.firebase-common.16.1.0.dex.jar"/>
+    <File Path="com-google-firebase.firebase-iid-interop.16.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-iid.17.1.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-measurement-connector.17.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-messaging.17.5.0.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="D:\Projetos"/>
+    <File Path="..\..\..\..\Global"/>
+    <File Path="..\..\..\..\Global\uFireDAC.pas"/>
+    <File Path="..\..\..\..\Global\uLoading.pas"/>
+    <File Path="..\..\..\..\Global\uRestDataWare.pas"/>
+    <File Path="Untis"/>
+    <File Path="Untis\uBehaviors.pas"/>
+    <File Path="Untis\uDm.pas"/>
+    <File Path="Untis\uDm.dfm"/>
+    <File Path="View"/>
+    <File Path="View\Frames"/>
+    <File Path="View\Frames\View.Frames.ItemLista.pas"/>
+    <File Path="View\Frames\View.Frames.ItemLista.fmx"/>
+    <File Path="View\Frames\View.Frames.TabelaCores.pas"/>
+    <File Path="View\Frames\View.Frames.TabelaCores.fmx"/>
+    <File Path="View\View.Configuracao.pas"/>
+    <File Path="View\View.Configuracao.fmx"/>
+    <File Path="View\View.Principal.pas"/>
+    <File Path="View\View.Principal.fmx"/>
+    <File Path="View\View.TabelaPreco.pas"/>
+    <File Path="View\View.TabelaPreco.fmx"/>
+  </ProjectSortOrder>
+</BorlandProject>

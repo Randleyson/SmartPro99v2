@@ -1,0 +1,54 @@
+object FrameItemList: TFrameItemList
+  Size.Width = 684.000000000000000000
+  Size.Height = 58.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = x7DFEFE00
+    Size.Width = 684.000000000000000000
+    Size.Height = 58.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object LblDescricao: TLabel
+      Align = Left
+      StyledSettings = []
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Width = 386.000000000000000000
+      Size.Height = 58.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Trebuchet MS'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = xFF555555
+      Text = 'LblDescricao acem moido'
+      TabOrder = 1
+    end
+    object LblUnd: TLabel
+      Align = Right
+      StyledSettings = [Style]
+      Position.X = 634.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 58.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Nirmala UI'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = xFF757575
+      Text = 'LblUnd'
+      TabOrder = 2
+    end
+    object LblValor: TLabel
+      Align = Right
+      StyledSettings = [Style]
+      Position.X = 424.000000000000000000
+      Size.Width = 210.000000000000000000
+      Size.Height = 58.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Comic Sans MS'
+      TextSettings.Font.Size = 25.000000000000000000
+      TextSettings.FontColor = xFFFF0101
+      TextSettings.HorzAlign = Center
+      Text = 'LblValor'
+      TabOrder = 3
+    end
+  end
+end

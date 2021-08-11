@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<PIOSsumulador iOSSimulator="iPhone5"/>
+		<NoProfile Android=""/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>2021/05/23 11:32:46.000.063,D:\Projetos\SmartPro99\trunk\ServerRestDataWare\Units\uDm.dfm=D:\Projetos\SmartPro99\trunk\ServerRestDataWare\Dm\uDm.dfm</Transaction>
+    <Transaction>2021/05/23 14:40:29.000.285,D:\Projetos\SmartPro99\trunk\ServerRestDataWare\Module\Module.ServerMethod.dfm=D:\Projetos\SmartPro99\trunk\ServerRestDataWare\Units\uServerMethod.dfm</Transaction>
+    <Transaction>2021/07/04 16:04:10.000.859,D:\Projetos\SmartPro99\trunk\ServerRestDataWare\Server.dproj=D:\Projetos\SmartPro99\trunk\ServerRestDataWare\ServerSmartPro99.dproj</Transaction>
+    <Transaction>2021/07/19 21:28:48.000.105,=D:\Projetos\Units\uUtilis.pas</Transaction>
+    <Transaction>2021/08/08 17:12:39.000.811,D:\Projetos\SmartPro99\trunk\Source\Server\Units\uFiredac.pas=</Transaction>
+    <Transaction>2021/08/08 17:12:52.000.580,=D:\Projetos\Global\uFireDAC.pas</Transaction>
+    <Transaction>2021/08/08 17:13:19.000.247,=D:\Projetos\Global\uUtilis.pas</Transaction>
+    <Transaction>2021/08/10 00:36:52.536,=D:\Projetos\Global\uAccessKey.pas</Transaction>
+    <Transaction>2021/08/10 00:38:25.789,D:\Projetos\Global\uUtilis.pas=</Transaction>
+    <Transaction>2021/08/10 00:49:08.031,=D:\Projetos\SmartPro99\trunk\Source\Server\Units\uBehaviors.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-base.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-identifier.16.0.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads-lite.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-ads.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-analytics-impl.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-analytics.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-base.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-basement.16.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-gass.17.2.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-identity.16.0.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-maps.16.1.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-measurement-base.16.4.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-measurement-sdk-api.16.4.0.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-stats.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-tagmanager-v4-impl.16.0.8.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-tasks.16.0.1.dex.jar"/>
+    <File Path="com-google-android-gms.play-services-wallet.16.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-analytics.16.4.0.dex.jar"/>
+    <File Path="com-google-firebase.firebase-common.16.1.0.dex.jar"/>
+    <File Path="com-google-firebase.firebase-iid-interop.16.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-iid.17.1.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-measurement-connector.17.0.1.dex.jar"/>
+    <File Path="com-google-firebase.firebase-messaging.17.5.0.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="D:\Projetos"/>
+    <File Path="..\..\..\..\Global"/>
+    <File Path="..\..\..\..\Global\uFireDAC.pas"/>
+    <File Path="..\..\..\..\Global\uAccessKey.pas"/>
+    <File Path="Units"/>
+    <File Path="Units\uDm.pas"/>
+    <File Path="Units\uDm.dfm"/>
+    <File Path="Units\uServer.pas"/>
+    <File Path="Units\uServerMethod.pas"/>
+    <File Path="Units\uServerMethod.dfm"/>
+    <File Path="Units\uBehaviors.pas"/>
+    <File Path="View"/>
+    <File Path="View\View.FrmPrincipal.pas"/>
+    <File Path="View\View.FrmPrincipal.fmx"/>
+  </ProjectSortOrder>
+</BorlandProject>

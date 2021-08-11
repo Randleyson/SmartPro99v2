@@ -1,0 +1,307 @@
+object FrameCadProdutos: TFrameCadProdutos
+  Align = Client
+  Size.Width = 912.000000000000000000
+  Size.Height = 636.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Size.Width = 912.000000000000000000
+    Size.Height = 567.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Layout1: TLayout
+      Align = Client
+      Size.Width = 912.000000000000000000
+      Size.Height = 567.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object LytListaProdutos: TLayout
+        Align = Left
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 400.000000000000000000
+        Size.Height = 551.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Label1: TLabel
+          Align = Top
+          StyledSettings = [Style]
+          Size.Width = 400.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Arial'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.FontColor = xFF363435
+          Text = 'Produtos'
+          TabOrder = 0
+        end
+        inline FramePesquisa: TFramePesquisa
+          Align = Top
+          Position.Y = 25.000000000000000000
+          Size.Width = 400.000000000000000000
+          Size.Height = 66.000000000000000000
+          Size.PlatformDefault = False
+          inherited RectPesquisaProduto: TRectangle
+            Size.Width = 400.000000000000000000
+            Size.Height = 66.000000000000000000
+            inherited CBoxFiltro: TComboBox
+              Size.Width = 390.000000000000000000
+            end
+            inherited Rectangle1: TRectangle
+              Size.Width = 394.000000000000000000
+              Size.Height = 25.000000000000000000
+              inherited Image1: TImage
+                MultiResBitmap.Height = 512
+                MultiResBitmap.Width = 512
+                Size.Height = 21.000000000000000000
+                inherited FillRGBEffect1: TFillRGBEffect
+                  Color = xFF3A84E0
+                end
+              end
+              inherited EdtPesquisa: TEdit
+                Size.Width = 344.000000000000000000
+                Size.Height = 25.000000000000000000
+                OnKeyUp = FramePesquisaEdtPesquisaKeyUp
+              end
+            end
+          end
+        end
+        object GrdProduto: TStringGrid
+          Align = Client
+          CanFocus = True
+          ClipChildren = True
+          Size.Width = 400.000000000000000000
+          Size.Height = 460.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          RowCount = 0
+          Options = [ColumnResize, ColumnMove, ColLines, RowLines, RowSelect, Tabs, Header, HeaderClick, AutoDisplacement]
+          OnCellClick = GrdProdutoCellClick
+          Viewport.Width = 396.000000000000000000
+          Viewport.Height = 435.000000000000000000
+        end
+      end
+      object LytCadProduto: TLayout
+        Align = Client
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Size.Width = 480.000000000000000000
+        Size.Height = 551.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Layout4: TLayout
+          Align = Top
+          Size.Width = 480.000000000000000000
+          Size.Height = 161.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Layout5: TLayout
+            Align = Top
+            Position.Y = 35.000000000000000000
+            Size.Width = 480.000000000000000000
+            Size.Height = 62.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object LytCodBarra: TLayout
+              Align = Left
+              Margins.Left = 8.000000000000000000
+              Margins.Top = 8.000000000000000000
+              Margins.Right = 8.000000000000000000
+              Margins.Bottom = 8.000000000000000000
+              Position.X = 8.000000000000000000
+              Position.Y = 8.000000000000000000
+              Size.Width = 113.000000000000000000
+              Size.Height = 46.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              object Label7: TLabel
+                Align = Top
+                StyledSettings = [Style]
+                Size.Width = 113.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Arial'
+                TextSettings.Font.Size = 14.000000000000000000
+                TextSettings.FontColor = xFF363435
+                Text = 'Codigo de Barra'
+                TabOrder = 0
+              end
+              object EdtCodBarra: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Bottom
+                TabOrder = 1
+                Position.Y = 24.000000000000000000
+                Enabled = False
+                Size.Width = 113.000000000000000000
+                Size.Height = 22.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+            object LytDescricao: TLayout
+              Align = Left
+              Margins.Left = 8.000000000000000000
+              Margins.Top = 8.000000000000000000
+              Margins.Right = 8.000000000000000000
+              Margins.Bottom = 8.000000000000000000
+              Position.X = 137.000000000000000000
+              Position.Y = 8.000000000000000000
+              Size.Width = 312.000000000000000000
+              Size.Height = 46.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              object Label6: TLabel
+                Align = Top
+                StyledSettings = [Style]
+                Size.Width = 312.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Family = 'Arial'
+                TextSettings.Font.Size = 14.000000000000000000
+                TextSettings.FontColor = xFF363435
+                Text = 'Descri'#231#227'o'
+                TabOrder = 0
+              end
+              object EdtDecricao: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Bottom
+                TabOrder = 1
+                Position.Y = 24.000000000000000000
+                Enabled = False
+                Size.Width = 312.000000000000000000
+                Size.Height = 22.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+          end
+          object Label10: TLabel
+            Align = Top
+            StyledSettings = [Style]
+            Size.Width = 480.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Arial'
+            TextSettings.Font.Size = 18.000000000000000000
+            TextSettings.FontColor = xFF363435
+            Text = 'Detalhamento'
+            TabOrder = 1
+          end
+          object LytUnidade: TLayout
+            Align = Left
+            Margins.Left = 8.000000000000000000
+            Margins.Top = 8.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Margins.Bottom = 8.000000000000000000
+            Position.X = 8.000000000000000000
+            Position.Y = 105.000000000000000000
+            Size.Width = 64.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            object Label8: TLabel
+              Align = Top
+              StyledSettings = [Style]
+              Size.Width = 64.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Arial'
+              TextSettings.Font.Size = 14.000000000000000000
+              TextSettings.FontColor = xFF363435
+              Text = 'Unidade'
+              TabOrder = 0
+            end
+            object EdtUnidade: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Bottom
+              TabOrder = 1
+              Position.Y = 26.000000000000000000
+              Enabled = False
+              Size.Width = 64.000000000000000000
+              Size.Height = 22.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+          object LytVrVenda: TLayout
+            Align = Left
+            Margins.Left = 8.000000000000000000
+            Margins.Top = 8.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Margins.Bottom = 8.000000000000000000
+            Position.X = 88.000000000000000000
+            Position.Y = 105.000000000000000000
+            Size.Width = 113.000000000000000000
+            Size.Height = 48.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+            object Label9: TLabel
+              Align = Top
+              StyledSettings = [Style]
+              Size.Width = 113.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Arial'
+              TextSettings.Font.Size = 14.000000000000000000
+              TextSettings.FontColor = xFF363435
+              Text = 'Valor'
+              TabOrder = 0
+            end
+            object EdtVrVenda: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Bottom
+              TabOrder = 1
+              Position.Y = 26.000000000000000000
+              Enabled = False
+              Size.Width = 113.000000000000000000
+              Size.Height = 22.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+        end
+      end
+    end
+  end
+  inline FrameCabecalho1: TFrameCabecalho
+    Align = Top
+    Size.Width = 912.000000000000000000
+    Size.Height = 69.000000000000000000
+    Size.PlatformDefault = False
+    inherited Rectangle1: TRectangle
+      Size.Width = 912.000000000000000000
+      inherited LblNomeDaTela: TLabel
+        Size.Width = 896.000000000000000000
+        inherited Layout1: TLayout
+          Position.X = 846.000000000000000000
+          inherited ImgFechar: TImage
+            MultiResBitmap.Height = 512
+            MultiResBitmap.Width = 512
+            OnClick = FrameCabecalho1ImgFecharClick
+          end
+        end
+      end
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = Dm.DS_Produtos
+    ScopeMappings = <>
+    Left = 48
+    Top = 224
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = GrdProduto
+      Columns = <>
+    end
+  end
+end
